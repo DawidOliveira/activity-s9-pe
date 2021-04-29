@@ -4,12 +4,6 @@ except ImportError:
     print('você não tem o scipy instalado, por favor execute o seguinte comando:\npip install scipy\n\nor\n\npip3 install scipy')
     exit()
 
-try:
-    import matplotlib.pyplot as plt
-except ImportError:
-    print('você não tem o matplotlib instalado, por favor execute o seguinte comando:\npip install matplotlib\n\nor\n\npip3 install matplotlib')
-    exit()
-
 def q2_b():
     size = [128, 256, 384, 512, 640, 768, 896, 1024]
 
